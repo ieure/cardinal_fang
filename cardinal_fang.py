@@ -4,16 +4,12 @@
 # Cardinal Fang twitterbot
 #
 # © 2008 Buster Marx, Inc. All rights reserved.
-# Author: Ian Eure <ieure@blarg.net>
-#
-# $Id$
+# Author: Ian Eure <ian.eure@gmail.com>
 
 import sys
 sys.path += "./lib"
-import twitter
+import twitter, urllib2, sqlite3
 import simplejson as json
-import urllib2
-import sqlite3
 
 db = sqlite3.connect('./victims.sqlite')
 
