@@ -45,7 +45,7 @@ def burn_at_the_stake(twitter, heretics):
                            % (heretic,))
 
 def get_twitter():
-    return twitter.Api(username="Cardinal_Fang", password="scil2oth9phij")
+    return twitter.Api(username="Cardinal_Fang", password="")
 
 def __main__():
     print "Running."
